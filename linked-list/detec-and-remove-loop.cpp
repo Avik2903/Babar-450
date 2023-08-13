@@ -43,10 +43,10 @@ void removeloop(node *head)
 {
     if (head == NULL && head->next == NULL)
     {
-        return head;
+        return;
     }
-    Node *s = head;
-    Node *f = head;
+    node *s = head;
+    node *f = head;
     while (f && f->next)
     {
         s = s->next;
