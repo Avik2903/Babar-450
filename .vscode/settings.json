@@ -1,0 +1,12 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "xutility": "cpp",
+        "string": "cpp",
+        "xstring": "cpp",
+        "iostream": "cpp"
+    }
+}
