@@ -10,7 +10,6 @@ int celebrity(int M[N][N], int n)
 		else 
 			i++;
 	}
-	
 	int candidate = i;
 	for (i = 0; i < n; i++) {
 		if (i != candidate) {
@@ -21,7 +20,6 @@ int celebrity(int M[N][N], int n)
 	}
 	return candidate;
 }
-
 int main()
 {
 	int M[N][N] = { { 0, 0, 1, 0 },
