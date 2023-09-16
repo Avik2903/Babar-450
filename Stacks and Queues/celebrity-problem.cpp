@@ -10,7 +10,6 @@ int celebrity(int M[N][N], int n)
 		else 
 			i++;
 	}
-	
 	int candidate = i;
 	for (i = 0; i < n; i++) {
 		if (i != candidate) {
