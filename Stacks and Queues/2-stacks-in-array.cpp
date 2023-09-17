@@ -1,8 +1,5 @@
-#include <iostream>
-#include <stdlib.h>
-
+#include <bits/stdc++.h>
 using namespace std;
-
 class twoStacks {
 	int* arr;
 	int size;
