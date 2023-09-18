@@ -13,7 +13,6 @@ public:
 		top1 = -1;
 		top2 = size;
 	}
-
 	// Method to push an element x to stack1
 	void push1(int x)
 	{
