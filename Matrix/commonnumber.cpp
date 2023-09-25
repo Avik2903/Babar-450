@@ -5,7 +5,6 @@ using namespace std;
 void printCommonElements(int mat[M][N])
 {
 	unordered_map<int, int> mp;
-
 	// initialize 1st row elements with value 1
 	for (int j = 0; j < N; j++)
 		mp[(mat[0][j])] = 1;
