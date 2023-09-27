@@ -20,6 +20,7 @@ int celebrity(int M[N][N], int n)
 	}
 	return candidate;
 }
+
 int main()
 {
 	int M[N][N] = { { 0, 0, 1, 0 },
