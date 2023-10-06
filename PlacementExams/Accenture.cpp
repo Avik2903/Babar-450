@@ -6,7 +6,6 @@ int solve(int i,int j,vector<vector<int>> &mat,int n)
     q.push({i,j});
     vector<int> v;
     v.push_back(mat[i][j]);
-
     int dx[]={-1,0,1,0};
     int dy[]={0,1,0,-1};
     while(!q.empty())
