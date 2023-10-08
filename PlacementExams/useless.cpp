@@ -15,8 +15,6 @@ int gcd(int a, int b)
     }
     return a;
 }
- 
-// Driver code
 int main()
 {
     int a,b;
