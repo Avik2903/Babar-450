@@ -41,8 +41,6 @@ int findDuplicate(vector<int>& nums)
 		}
 		return low;
 }
-
-// Driver code
 int main()
 {
 	vector<int> v{ 9, 8, 2, 6, 1, 8, 5, 3, 4, 7 };
