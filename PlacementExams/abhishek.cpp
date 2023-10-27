@@ -25,7 +25,6 @@ int findDuplicate(vector<int>& nums)
 		{
 			int mid = low + (high - low) / 2;
 			cnt = 0;
-			// cnt number less than equal to mid
 			for(int n : nums)
 			{
 				if(n <= mid)
