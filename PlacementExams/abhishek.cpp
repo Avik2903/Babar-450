@@ -14,6 +14,7 @@ int main()
     cout<<x;
 return 0;
 }*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -43,8 +44,6 @@ int findDuplicate(vector<int>& nums)
 int main()
 {
 	vector<int> v{ 9, 8, 2, 6, 1, 8, 5, 3, 4, 7 };
-	
-	// Function call
 	int ans = findDuplicate(v);
 	cout << ans << endl;//8
 	return 0;
