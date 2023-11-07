@@ -1,3 +1,4 @@
+// Selection Sort	n^{2}	n^{2}	n^{2}	space = 1	stable = No
 #include<bits/stdc++.h>
 using namespace std;
 void selection(int arr[5],int n)
@@ -26,6 +27,3 @@ int main()
     cout<<arr[i]<<" ";
 
 }
-
-// Selection Sort	n^{2}	n^{2}	n^{2}	space = 1	stable = No
-
