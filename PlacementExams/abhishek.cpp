@@ -17,7 +17,6 @@ return 0;
 
 #include <bits/stdc++.h>
 using namespace std;
-
 int findDuplicate(vector<int>& nums)
 {
 	int low = 1, high = nums.size() - 1, cnt;
