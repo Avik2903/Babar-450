@@ -9,5 +9,9 @@
         "xstring": "cpp",
         "iostream": "cpp",
         "vector": "cpp"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "",
+        "textMateRules": []
     }
 }
