@@ -1,6 +1,6 @@
 // Merge sort in C++
 
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 // Merge two subarrays L and M into arr
