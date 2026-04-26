@@ -87,6 +87,7 @@ void disp(node *head)
     }
     cout << endl;
 }
+
 int main()
 {
     node *head = NULL;

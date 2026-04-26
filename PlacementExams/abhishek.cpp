@@ -14,9 +14,9 @@ int main()
     cout<<x;
 return 0;
 }*/
+
 #include <bits/stdc++.h>
 using namespace std;
-
 int findDuplicate(vector<int>& nums)
 {
 	int low = 1, high = nums.size() - 1, cnt;
@@ -25,7 +25,6 @@ int findDuplicate(vector<int>& nums)
 		{
 			int mid = low + (high - low) / 2;
 			cnt = 0;
-			// cnt number less than equal to mid
 			for(int n : nums)
 			{
 				if(n <= mid)
@@ -41,13 +40,9 @@ int findDuplicate(vector<int>& nums)
 		}
 		return low;
 }
-
-// Driver code
 int main()
 {
 	vector<int> v{ 9, 8, 2, 6, 1, 8, 5, 3, 4, 7 };
-	
-	// Function call
 	int ans = findDuplicate(v);
 	cout << ans << endl;//8
 	return 0;

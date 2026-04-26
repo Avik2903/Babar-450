@@ -9,7 +9,9 @@ void findMaximumNum(string str, int k,string &max, int ctr)
     for (int j = ctr + 1; j < n; j++)
     {
         if (maxm < str[j])
+        {
             maxm = str[j];
+        }
     }
     if (maxm != str[ctr])
         --k;

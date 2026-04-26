@@ -1,3 +1,4 @@
+//Insertion Sort	n	n^{2}	n^{2}	space=1	stable=Yes
 #include<bits/stdc++.h>
 using namespace std;
 void insert(int arr[],int n)
@@ -17,12 +18,9 @@ void insert(int arr[],int n)
 }
 int main()
 {
-    int arr[]={5,4,7,2,6};
+    int arr[]={5,4,7,2,6,8};
     int n=sizeof(arr)/sizeof(arr[0]);
     insert(arr,n);
     for(int i=0;i<n;i++)
     cout<<arr[i]<<" ";
 }
-
-//Insertion Sort	n	n^{2}	n^{2}	space=1	stable=Yes
-

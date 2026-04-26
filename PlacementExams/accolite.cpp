@@ -33,8 +33,6 @@ int beauty(int n, int m, string s, int x[], int y[]) {
 
     return maxBeauty;
 }
-
-// Unit test cases
 namespace user {
     void testCases() {
         int x1[] = {1, 1, 3, 4};

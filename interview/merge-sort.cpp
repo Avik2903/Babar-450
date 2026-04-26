@@ -57,7 +57,6 @@ void mergeSort(int arr[], int l, int r)
         merge(arr, l, m, r);
     }
 }
-
 int main()
 {
     int arr[] = {6, 5, 12, 10, 9, 1};
@@ -69,6 +68,4 @@ int main()
         cout << arr[i] << " ";
     return 0;
 }
-
 // Merge Sort	nlog n	nlog n	nlog n	space=n	stability=Yes
-
